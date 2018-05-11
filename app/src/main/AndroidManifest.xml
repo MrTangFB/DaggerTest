@@ -2,6 +2,7 @@
           package="com.dagger.android">
 
     <application
+        android:name=".BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,5 +23,15 @@
         <activity android:name=".daggerTwo.case1.ParkingActivity"/>
 
         <activity android:name=".daggerTwo.case2.ParkingActivity"/>
+
+        <activity android:name=".daggerThree.case1.ParkingActivity"/>
+
+        <activity android:name=".daggerThree.case2.LoginActivity"/>
+
+        <activity android:name=".daggerThree.case2.TestActivity"/>
+
+        <activity android:name=".daggerThree.case3.ParkingActivity"/>
+
+        <activity android:name=".daggerThree.case3.TestActivity"/>
     </application>
 </manifest>

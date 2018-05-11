@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.dagger.android.daggerThree.case2.LoginActivity;
+
 /**
  * Created by Mr.T on 2018/4/27.
  */
@@ -24,6 +26,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         dagger_two_1.setOnClickListener(this);
         Button dagger_two_2 = (Button) findViewById(R.id.dagger_two_2);
         dagger_two_2.setOnClickListener(this);
+        Button dagger_three_1 = (Button) findViewById(R.id.dagger_three_1);
+        dagger_three_1.setOnClickListener(this);
+        Button dagger_three_2 = (Button) findViewById(R.id.dagger_three_2);
+        dagger_three_2.setOnClickListener(this);
+        Button dagger_three_3 = (Button) findViewById(R.id.dagger_three_3);
+        dagger_three_3.setOnClickListener(this);
     }
 
     @Override
@@ -41,6 +49,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.dagger_two_2:
                 intent.setClass(this, com.dagger.android.daggerTwo.case2.ParkingActivity.class);
+                break;
+            case R.id.dagger_three_1:
+                intent.setClass(this, com.dagger.android.daggerThree.case1.ParkingActivity.class);
+                break;
+            case R.id.dagger_three_2:
+                intent.setClass(this, LoginActivity.class);
+                break;
+            case R.id.dagger_three_3:
+                intent.setClass(this, com.dagger.android.daggerThree.case3.ParkingActivity.class);
                 break;
         }
         startActivity(intent);

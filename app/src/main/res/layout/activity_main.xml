@@ -28,4 +28,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DAGGER_TWO_@Qualifier应用二"/>
+
+    <Button
+        android:id="@+id/dagger_three_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAGGER_THREE_@Scope应用一"/>
+
+    <Button
+        android:id="@+id/dagger_three_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAGGER_THREE_@Scope应用二之局部单例"/>
+
+    <Button
+        android:id="@+id/dagger_three_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAGGER_THREE_@Scope应用二之全局单例"/>
 </LinearLayout>
