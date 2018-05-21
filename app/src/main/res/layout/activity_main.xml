@@ -46,4 +46,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DAGGER_THREE_@Scope应用二之全局单例"/>
+
+    <Button
+        android:id="@+id/dagger_four_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAGGER_FOUR_Dependencies与SubComponent应用一"/>
+
+    <Button
+        android:id="@+id/dagger_four_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAGGER_FOUR_Dependencies与SubComponent应用二"/>
+
+    <Button
+        android:id="@+id/dagger_four_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAGGER_FOUR_Dependencies与SubComponent应用三"/>
 </LinearLayout>

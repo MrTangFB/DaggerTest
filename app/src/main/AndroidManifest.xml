@@ -33,5 +33,11 @@
         <activity android:name=".daggerThree.case3.ParkingActivity"/>
 
         <activity android:name=".daggerThree.case3.TestActivity"/>
+
+        <activity android:name=".daggerFour.case1.ChildActivity"/>
+
+        <activity android:name=".daggerFour.case2.ChildActivity"/>
+
+        <activity android:name=".daggerFour.case3.ChildActivity"/>
     </application>
 </manifest>

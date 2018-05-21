@@ -32,6 +32,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         dagger_three_2.setOnClickListener(this);
         Button dagger_three_3 = (Button) findViewById(R.id.dagger_three_3);
         dagger_three_3.setOnClickListener(this);
+        Button dagger_four_1 = (Button) findViewById(R.id.dagger_four_1);
+        dagger_four_1.setOnClickListener(this);
+        Button dagger_four_2 = (Button) findViewById(R.id.dagger_four_2);
+        dagger_four_2.setOnClickListener(this);
+        Button dagger_four_3 = (Button) findViewById(R.id.dagger_four_3);
+        dagger_four_3.setOnClickListener(this);
     }
 
     @Override
@@ -58,6 +64,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.dagger_three_3:
                 intent.setClass(this, com.dagger.android.daggerThree.case3.ParkingActivity.class);
+                break;
+            case R.id.dagger_four_1:
+                intent.setClass(this, com.dagger.android.daggerFour.case1.ChildActivity.class);
+                break;
+            case R.id.dagger_four_2:
+                intent.setClass(this, com.dagger.android.daggerFour.case2.ChildActivity.class);
+                break;
+            case R.id.dagger_four_3:
+                intent.setClass(this, com.dagger.android.daggerFour.case3.ChildActivity.class);
                 break;
         }
         startActivity(intent);
